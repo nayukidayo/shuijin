@@ -107,8 +107,8 @@ export default function App() {
   return (
     <div className={cs.q}>
       <div className={cs.t}>
-        <div>-2F地下室</div>
-        <div>-3F地下室</div>
+        <div>地下2层</div>
+        <div>地下3层</div>
       </div>
       <div className={cs.wl}>
         <Scene asset="/f2.png" pos={f2} gwd={gwd} />
