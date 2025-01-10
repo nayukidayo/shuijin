@@ -1,20 +1,26 @@
 .q {
-  display: flex;
   height: 100vh;
   background-color: #1d1d1d;
+  overflow: hidden;
 }
 
 .q * {
   user-select: none;
 }
 
-.w {
-  flex: 1;
+.wl {
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #8c8c8c;
+
 }
 
-.e {
+.wr {
+  width: 50%;
+  height: 100%;
+  float: left;
   border-left: 1px solid #8c8c8c;
-  border-right: 1px solid #8c8c8c;
 }
 
 .t {

@@ -110,11 +110,10 @@ export default function App() {
         <div>-2F地下室</div>
         <div>-3F地下室</div>
       </div>
-      <div className={cs.w}>
+      <div className={cs.wl}>
         <Scene asset="/f2.png" pos={f2} gwd={gwd} />
       </div>
-      <div className={cs.e} />
-      <div className={cs.w}>
+      <div className={cs.wr}>
         <Scene asset="/f3.png" pos={f3} gwd={gwd} />
       </div>
       <Modal
